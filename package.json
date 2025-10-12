@@ -1,0 +1,12 @@
+{
+  "name": "nitro-app",
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nitropack": "^2.12.7"
+  }
+}
